@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-auto-rows: 250px;
+
+}
+
+li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .5em;
+    text-align: center;
+    font-size: 2em;
+    border: 1px solid transparent;
+}
+
+li:hover {
+    border: 1px solid black;
+}
